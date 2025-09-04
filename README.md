@@ -142,5 +142,3 @@ sonar.sourceEncoding=UTF-8
 You can later expand with **Maven/Gradle builds**, CI/CD (GitHub Actions, Jenkins), and multiple languages.
 
 ---
-
-Do you want me to make this repo **GitHub-ready** (with README.md, `.gitignore`, and setup steps) so you can directly push and demo it?
