@@ -6,6 +6,22 @@ Here’s a **very basic SonarQube project** you can set up quickly for practice 
 
 ## 📌 Overview
 
+//on mac
+```
+brew services start jenkins-lts (optional)
+
+# Update brew
+brew update
+
+# Install sonar-scanner
+brew install sonar-scanner 
+
+# Verify installation
+sonar-scanner --version
+
+My Account → Security → Generate Tokens.>> SONAR_TOKEN
+```
+
 SonarQube is a tool for **static code analysis** that helps detect bugs, vulnerabilities, and code smells.
 We’ll set up SonarQube using **Docker Compose** and connect it with a **simple application**.
 
